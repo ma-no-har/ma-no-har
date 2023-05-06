@@ -33,7 +33,7 @@ class LinkedListDemo
     ll.add("Ramesh");
     addFirst("Venkat");
     System.out.println(ll);
-    //it return the first object not deleting.
+    //it deleting the first inserting object.
     poll();
     
   }
