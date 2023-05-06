@@ -22,13 +22,14 @@ import java.util.*;
 public class Arraylist {
 	public static void main(String args[])
 	{
-		//Hetrogeneuos Example
+		//Heterogeneuos Example
 //		ArrayList al = new ArrayList();
 //		al.add("Manohar");
 //		al.add(23);
 //		al.add(98.4);
 //		al.add(true);
 //		System.out.println(al);
+		//Homogeneous Example
 		ArrayList<Integer> al = new ArrayList<>();
 		al.add(3);
 		al.add(4);
