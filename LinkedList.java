@@ -70,6 +70,11 @@ public class Linked_List {
 		//using Collections.addAll()
 		Collections.addAll(linkedlist2, str);
 		System.out.println(linkedlist2);
+		Iterator itr = linkedlist1.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
 		
 		
 		
